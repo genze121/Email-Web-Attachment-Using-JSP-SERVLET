@@ -1,0 +1,28 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap')
+	;
+
+body {
+	background: url("home.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 40vh;
+}
+
+.card {
+	border: 3px solid red;
+	border-radius: 8px;
+	box-shadow: 5px 20px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+	left: 0;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	background: blue;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: bolder;
+	padding: 8px;
+}
